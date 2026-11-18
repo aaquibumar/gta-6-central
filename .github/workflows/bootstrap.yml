@@ -6,7 +6,6 @@ permissions:
   contents: write
 jobs:
   unpack-site:
-    if: github.event.head_commit.message == 'chore: retry bootstrap site import'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,12 +13,16 @@ jobs:
           fetch-depth: 0
       - name: Unpack the site files into the repository root
         run: |
+          if [ ! -f bootstrap-source.tar.gz ]; then
+            echo "Site files have already been imported."
+            exit 0
+          fi
           tar -xzf bootstrap-source.tar.gz -C /tmp
           cp -a /tmp/gta-6-central/. .
           rm -rf /tmp/gta-6-central
           rm -f bootstrap-source.tar.gz .github/workflows/update-news.yml
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+aaquibumar@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then
             echo "No site changes found."
