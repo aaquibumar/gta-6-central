@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "id": "preload-now",
+      "title": "Pre-Load Grand Theft Auto VI Now",
+      "source": "Rockstar Games",
+      "date": "2026-11-10",
+      "summary": "Rockstar’s official GTA VI page lists the pre-load announcement among its featured Newswire posts.",
+      "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+      "official": true
+    },
+    {
+      "id": "launch-gallery",
+      "title": "Explore the Grand Theft Auto VI Launch Gallery",
+      "source": "Rockstar Games",
+      "date": "2026-11-05",
+      "summary": "Rockstar highlights a launch gallery of screenshots from Leonida on the official GTA VI page.",
+      "url": "https://www.rockstargames.com/newswire/article/39ak81277255o9/explore-the-grand-theft-auto-vi-launch-gallery",
+      "official": true
+    },
+    {
+      "id": "preload-begins",
+      "title": "Grand Theft Auto VI Pre-Load Begins on November 10",
+      "source": "Rockstar Games",
+      "date": "2026-11-03",
+      "summary": "An official announcement about the planned pre-load date for GTA VI.",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+      "official": true
+    }
+  ]
+}

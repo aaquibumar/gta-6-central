@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080b17"><meta name="description" content="GTA 6 Central — searchable cheat tracker, Leonida region explorer, character and vehicle databases, walkthroughs and GTA VI news.">
+<title>GTA 6 Central — Cheats, Tips, Guides & Game Intel</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="wrap topbar">
+ <a href="#" class="brand">GTA 6 <span>CENTRAL</span><small>YOUR FIELD GUIDE TO LEONIDA</small></a>
+ <nav class="nav" id="nav"><a href="#cheats">CHEATS</a><a href="#map">LEONIDA MAP</a><a href="#characters">CHARACTERS</a><a href="#vehicles">VEHICLES</a><a href="#guides">TIPS & GUIDES</a><a href="#news">NEWS</a></nav>
+ <div style="display:flex;align-items:center;gap:10px"><a class="nav-cta" href="admin.html">CONTENT ADMIN ↗</a><button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button></div>
+</header>
+<main class="wrap">
+ <section class="hero">
+  <div><div class="eyebrow">Independent GTA VI companion · spoiler-aware</div>
+   <h1>THE CITY IS<br>YOURS TO <em>MASTER.</em></h1>
+   <p class="lead">Cheat-code tracking, practical tips, character intel, vehicle references, Leonida discoveries and walkthroughs — organised in one player-first hub.</p>
+   <div class="actions"><a href="#cheats" class="btn">OPEN CHEAT DATABASE ↗</a><a href="#map" class="btn alt">EXPLORE LEONIDA</a></div>
+   <p class="smallnote">GTA VI is listed by Rockstar for <b>November 19, 2026</b> on PlayStation 5 and Xbox Series X|S. Game-specific entries are labelled by evidence level.</p>
+  </div>
+  <div class="hero-art"><img src="https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/f7eab33a4989ce5f0cd89c70723909b3.jpg" alt="Official Grand Theft Auto VI key art featuring Jason and Lucia" loading="eager"><div class="art-tag"><small>VICE CITY · LEONIDA</small><b>YOUR NEXT BIG SCORE STARTS HERE</b></div></div>
+ </section>
+ <div class="facts">
+  <div class="fact"><b>06</b><span>Featured regions</span></div><div class="fact"><b>08</b><span>Character profiles</span></div><div class="fact"><b>AUTO</b><span>Scheduled news sync</span></div>
+ </div>
+
+ <section class="section" id="news">
+  <div class="section-head"><div><div class="eyebrow">Fresh from the wire</div><h2>THE LATEST INTEL</h2><p>Official Rockstar posts and selected gaming coverage. Each item displays its publisher and publication date.</p></div><span class="right" id="newsUpdated">NEWS FEED</span></div>
+  <div class="grid" id="newsGrid"><div class="empty">Loading news…</div></div>
+ </section>
+
+ <section class="section" id="cheats">
+  <div class="section-head"><div><div class="eyebrow">Controller reference</div><h2>GTA 6 CHEAT DATABASE</h2><p>Filter by category and platform. No made-up button combinations: each code needs evidence before it can be marked verified.</p></div><span class="right">VERIFICATION FIRST</span></div>
+  <div class="toolbar"><input id="cheatSearch" class="search" placeholder="Search cheats: health, ammo, wanted level…" aria-label="Search cheat database"></div>
+  <div class="toolbar" id="cheatFilters"><button class="filter active" data-filter="All">ALL</button><button class="filter" data-filter="Player">PLAYER</button><button class="filter" data-filter="Combat">COMBAT</button><button class="filter" data-filter="Vehicles">VEHICLES</button><button class="filter" data-filter="World">WORLD</button></div>
+  <div class="grid" id="cheatGrid"></div>
+  <div class="callout"><b>Important:</b> Rockstar has not confirmed an official GTA VI cheat-code list in the material checked for this build. These are tracker categories, not working codes. A code will only be promoted to <b>Verified</b> with a reproducible in-game test, platform/input details and a source note. Never assume GTA V codes work in GTA VI.</div>
+ </section>
+
+ <section class="section" id="map">
+  <div class="section-head"><div><div class="eyebrow">Region explorer</div><h2>EXPLORE LEONIDA</h2><p>Select a featured destination to see its notes and keep track of what still needs in-game mapping.</p></div><span class="right">SCHEMATIC · NOT TO SCALE</span></div>
+  <div class="region-layout">
+   <div class="region-map"><div class="map-caption">Leonida destination index · select a region</div><div id="regionNodes" class="region-nodes"></div></div>
+   <div class="region-detail" id="regionDetail"><span class="status ok">Officially featured</span><h3>Vice City</h3><p>Select a location to explore its current notes.</p><a class="textlink" href="https://www.rockstargames.com/VI/only-in-leonida" target="_blank" rel="noopener">ROCKSTAR: PEOPLE & PLACES ↗</a></div>
+  </div>
+  <div class="callout">This is a destination index, not a navigable or official in-game map. Exact coordinates, roads, collectibles and pins will be added only when they can be checked against gameplay. For an existing community-built interactive map, see <a class="textlink" href="https://gtascoop.com/map/" target="_blank" rel="noopener">GTA Scoop’s map</a> and check its own fan-estimate labels.</div>
+ </section>
+
+ <section class="section" id="characters">
+  <div class="section-head"><div><div class="eyebrow">People of Leonida</div><h2>CHARACTER DATABASE</h2><p>Officially featured character profiles, with spoiler-aware summaries and links to Rockstar’s source pages.</p></div><span class="right">ROCKSTAR PROFILES</span></div>
+  <div class="toolbar"><input id="characterSearch" class="search" placeholder="Search characters…" aria-label="Search characters"></div>
+  <div class="grid" id="characterGrid"></div>
+ </section>
+
+ <section class="section" id="vehicles">
+  <div class="section-head"><div><div class="eyebrow">Garage index</div><h2>VEHICLES & SPECS</h2><p>Names and sightings are separated from tested performance. Speed, handling, upgrades and spawn locations remain blank until gameplay tests support them.</p></div><span class="right">FIELD NOTES</span></div>
+  <div class="toolbar"><input id="vehicleSearch" class="search" placeholder="Search cars, bikes, boats…" aria-label="Search vehicles"><select id="vehicleType" class="search" style="max-width:210px;flex:0 1 210px"><option value="All">All vehicle types</option><option>Car</option><option>Motorcycle</option><option>Boat</option><option>Off-road</option><option>Aircraft</option></select></div>
+  <div class="grid" id="vehicleGrid"></div>
+  <div class="sourcebar"><span>Vehicle labels are pre-release reference entries; class names and all performance stats require confirmation.</span><a class="textlink" href="https://www.rockstargames.com/VI" target="_blank" rel="noopener">OFFICIAL GTA VI MEDIA ↗</a></div>
+ </section>
+
+ <section class="section" id="guides">
+  <div class="section-head"><div><div class="eyebrow">Play smarter</div><h2>TIPS, TRICKS & WALKTHROUGHS</h2><p>Practical guide categories, with post-launch walkthroughs added after actual playthrough verification.</p></div></div>
+  <div class="grid" id="guideGrid"></div>
+ </section>
+
+ <section class="section" id="missions">
+  <div class="section-head"><div><div class="eyebrow">Story & side content</div><h2>MISSION TRACKER</h2><p>Mission names, objectives, unlocks and rewards will be added as verified game data becomes available.</p></div><span class="right">SPOILER-AWARE</span></div>
+  <div class="grid" id="missionGrid"></div>
+ </section>
+
+ <section class="section" id="easter-eggs">
+  <div class="section-head"><div><div class="eyebrow">Secrets desk</div><h2>EASTER EGGS & DISCOVERIES</h2><p>Separate confirmed discoveries from theories. Each entry should eventually include proof, location and discovery credit.</p></div></div>
+  <div class="grid" id="eggGrid"></div>
+ </section>
+
+ <div class="sourcebar"><span>Editorial policy: cite sources, add dates, label evidence and correct errors openly.</span><span><a class="textlink" href="admin.html">OPEN CONTENT ADMIN ↗</a></span></div>
+</main>
+<footer class="footer"><div class="wrap footrow"><div><div class="brand">GTA 6 <span>CENTRAL</span></div><p>Independent fan-made information hub.</p></div><div>Not affiliated with Rockstar Games or Take-Two Interactive.<br>Grand Theft Auto and related marks belong to their respective owners.</div><div><a href="https://www.rockstargames.com/VI" target="_blank" rel="noopener">Official GTA VI site</a><br><a href="https://www.rockstargames.com/VI/only-in-leonida" target="_blank" rel="noopener">Official characters & places</a><br><a href="admin.html">Content admin</a></div></div><div class="wrap" style="margin-top:22px">© <span id="year"></span> GTA 6 Central · Unofficial community reference. Content accuracy labels indicate the current evidence level, not Rockstar endorsement.</div></footer>
+<script src="assets/app.js"></script>
+</body></html>

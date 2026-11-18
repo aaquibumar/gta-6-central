@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080b17"><title>GTA 6 Central — Content Admin</title><link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css"></head>
+<body><header class="wrap topbar"><a href="index.html" class="brand">GTA 6 <span>CENTRAL</span><small>CONTENT CONTROL ROOM</small></a><a class="nav-cta" href="index.html">← BACK TO WEBSITE</a></header>
+<main class="admin-wrap">
+ <div class="eyebrow">Local content manager</div><h1 style="font:900 54px/.95 'Barlow Condensed';margin:12px 0">CENTRAL <span style="color:var(--pink)">ADMIN</span></h1>
+ <div class="callout"><b>Important hosting limitation:</b> GitHub Pages is static hosting, so this dashboard has no server-side login and cannot publish changes directly. It saves edits in this browser only. To publish to everyone, export <code>content.json</code>, replace <code>data/content.json</code> in your GitHub repository, and commit the change. Do not enter secrets or passwords here.</div>
+ <section class="admin-panel"><h2>Quick add an entry</h2><p class="smallnote">Use this form for a new cheat record, vehicle, news item, guide, mission or discovery. For character and region edits, use the JSON editor below.</p>
+  <div class="formgrid">
+   <div class="field"><label for="kind">CONTENT TYPE</label><select id="kind"><option value="cheats">Cheat tracker</option><option value="vehicles">Vehicle</option><option value="news">News item</option><option value="guides">Guide / tip</option><option value="missions">Mission</option><option value="easterEggs">Easter egg / discovery</option></select></div>
+   <div class="field"><label for="title">TITLE / NAME</label><input id="title" placeholder="Entry title"></div>
+   <div class="field"><label for="category">CATEGORY / TYPE</label><input id="category" placeholder="e.g. Player, Car, Walkthrough"></div>
+   <div class="field"><label for="status">EVIDENCE STATUS</label><input id="status" placeholder="e.g. Verified, Awaiting testing"></div>
+   <div class="field full"><label for="summary">SUMMARY / EFFECT</label><textarea id="summary" placeholder="What should players know?"></textarea></div>
+   <div class="field"><label for="source">SOURCE URL</label><input id="source" type="url" placeholder="https://…"></div>
+   <div class="field"><label for="date">PUBLICATION DATE (NEWS)</label><input id="date" type="date"></div>
+   <div class="field"><label for="platform">PLATFORM / VEHICLE TYPE (OPTIONAL)</label><input id="platform" placeholder="PS5 · Xbox / Boat / Car"></div>
+   <div class="field"><label for="code">CHEAT INPUT (ONLY WHEN VERIFIED)</label><input id="code" placeholder="Leave blank until verified"></div>
+  </div>
+  <div class="admin-actions"><button class="btn" id="addEntry">ADD TO CONTENT</button><span class="toast" id="formMsg"></span></div>
+ </section>
+ <section class="admin-panel"><h2>Current content JSON</h2><p class="smallnote">Edit the full data object here. Changes are saved to this browser’s local storage. Click Validate & Save before exporting.</p>
+  <textarea id="jsonEditor" class="jsonbox" spellcheck="false" aria-label="Content JSON editor"></textarea>
+  <div class="admin-actions"><button class="btn" id="validateSave">VALIDATE & SAVE LOCALLY</button><button class="btn alt" id="exportJson">EXPORT content.json</button><button class="btn alt" id="resetLocal">RESET LOCAL CHANGES</button><label class="btn alt" for="importJson" style="cursor:pointer">IMPORT JSON</label><input id="importJson" type="file" accept=".json,application/json" class="hidden"><span class="toast" id="jsonMsg"></span></div>
+ </section>
+ <section class="admin-panel"><h2>Publishing checklist</h2><p class="smallnote">1. Export <code>content.json</code> from this page. 2. In GitHub, replace the file at <code>data/content.json</code>. 3. Commit to the default branch. 4. GitHub Pages redeploys automatically. Scheduled Newswire coverage updates are handled by the included GitHub Actions workflow. The workflow uses the repository’s built-in token and needs Actions read/write permissions.</p><p class="smallnote">For a real multi-user admin panel with accounts, roles and direct publishing, add a backend or CMS later. A password placed in a static HTML/JavaScript file is not secure.</p></section>
+</main>
+<script src="assets/admin.js"></script></body></html>

@@ -1,0 +1,410 @@
+{
+  "site": {
+    "name": "GTA 6 Central",
+    "tagline": "Your field guide to Leonida",
+    "releaseDate": "2026-11-19",
+    "platforms": [
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "officialUrl": "https://www.rockstargames.com/VI",
+    "characterSource": "https://www.rockstargames.com/VI/only-in-leonida",
+    "accuracyNote": "Community guide. Confirmed facts, footage sightings, community estimates and rumours are labelled separately."
+  },
+  "cheats": [
+    {
+      "id": "health-armour",
+      "name": "Health & armour",
+      "category": "Player",
+      "effect": "Health, armour and survival effects",
+      "status": "Not confirmed",
+      "platform": "PS5 · Xbox Series X|S",
+      "code": "",
+      "notes": "No official GTA VI code or activation method has been confirmed in the sources checked. We will add platform-specific inputs only after reliable in-game verification.",
+      "sourceUrl": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "wanted-level",
+      "name": "Wanted level",
+      "category": "Player",
+      "effect": "Police attention and wanted-level effects",
+      "status": "Not confirmed",
+      "platform": "PS5 · Xbox Series X|S",
+      "code": "",
+      "notes": "No verified GTA VI wanted-level input yet. Do not use GTA V combinations as GTA VI codes.",
+      "sourceUrl": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "weapons-ammo",
+      "name": "Weapons & ammo",
+      "category": "Combat",
+      "effect": "Weapon access, ammunition and combat effects",
+      "status": "Not confirmed",
+      "platform": "PS5 · Xbox Series X|S",
+      "code": "",
+      "notes": "Waiting for a tested code and confirmation of whether the game supports this cheat category.",
+      "sourceUrl": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "vehicle-spawn",
+      "name": "Vehicle spawn",
+      "category": "Vehicles",
+      "effect": "Spawn cars, bikes, boats or aircraft",
+      "status": "Not confirmed",
+      "platform": "PS5 · Xbox Series X|S",
+      "code": "",
+      "notes": "No GTA VI vehicle-spawn sequence has been verified. Vehicle database entries are separate from cheat codes.",
+      "sourceUrl": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "weather-time",
+      "name": "Weather & time",
+      "category": "World",
+      "effect": "Change weather, time or world conditions",
+      "status": "Not confirmed",
+      "platform": "PS5 · Xbox Series X|S",
+      "code": "",
+      "notes": "No confirmed code or in-game cheat menu for weather and time is available yet.",
+      "sourceUrl": "https://www.rockstargames.com/VI"
+    },
+    {
+      "id": "movement",
+      "name": "Movement & abilities",
+      "category": "Player",
+      "effect": "Movement, ability or physics modifiers",
+      "status": "Not confirmed",
+      "platform": "PS5 · Xbox Series X|S",
+      "code": "",
+      "notes": "Pending in-game testing. Any entry added here should identify platform, exact input and test evidence.",
+      "sourceUrl": "https://www.rockstargames.com/VI"
+    }
+  ],
+  "characters": [
+    {
+      "id": "jason-duval",
+      "name": "Jason Duval",
+      "role": "Playable protagonist",
+      "summary": "Grew up around grifters and crooks, served in the Army, and later worked for local drug runners in the Keys. His connection with Lucia changes the stakes.",
+      "status": "Official profile",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "imageUrl": ""
+    },
+    {
+      "id": "lucia-caminos",
+      "name": "Lucia Caminos",
+      "role": "Playable protagonist",
+      "summary": "Fresh out of the Leonida Penitentiary, Lucia is determined to change her circumstances and build the life her mother dreamed of.",
+      "status": "Official profile",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "imageUrl": ""
+    },
+    {
+      "id": "cal-hampton",
+      "name": "Cal Hampton",
+      "role": "Supporting character",
+      "summary": "Jason’s friend and an associate of Brian. He feels safest at home, monitoring Coast Guard communications and online chatter.",
+      "status": "Official profile",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "imageUrl": ""
+    },
+    {
+      "id": "boobie-ike",
+      "name": "Boobie Ike",
+      "role": "Supporting character",
+      "summary": "A Vice City local with a business empire spanning real estate, a club and a recording studio. He works with Dre’Quan Priest.",
+      "status": "Official profile",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "imageUrl": ""
+    },
+    {
+      "id": "drequan-priest",
+      "name": "Dre’Quan Priest",
+      "role": "Supporting character",
+      "summary": "An aspiring music figure focused on building Only Raw Records and breaking into the Vice City music scene.",
+      "status": "Official profile",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "imageUrl": ""
+    },
+    {
+      "id": "real-dimez",
+      "name": "Real Dimez",
+      "role": "Music duo",
+      "summary": "Bae-Luxe and Roxy are longtime friends who use music and social media to build a following. They are signed to Only Raw Records.",
+      "status": "Official profile",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "imageUrl": ""
+    },
+    {
+      "id": "raul-bautista",
+      "name": "Raul Bautista",
+      "role": "Supporting character",
+      "summary": "A confident, experienced bank robber who looks for people willing to take big risks for big rewards.",
+      "status": "Official profile",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "imageUrl": ""
+    },
+    {
+      "id": "brian-heder",
+      "name": "Brian Heder",
+      "role": "Supporting character",
+      "summary": "A veteran smuggler who operates through a boat yard in the Keys and lets others handle much of the risk.",
+      "status": "Official profile",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "imageUrl": ""
+    }
+  ],
+  "regions": [
+    {
+      "id": "vice-city",
+      "name": "Vice City",
+      "kind": "City",
+      "summary": "The neon-soaked urban centre highlighted by Rockstar. Explore districts, beaches, nightlife and landmarks as their in-game locations are confirmed.",
+      "status": "Officially featured"
+    },
+    {
+      "id": "leonida-keys",
+      "name": "Leonida Keys",
+      "kind": "Island chain",
+      "summary": "A featured destination in the southern island setting. Add exact points of interest only after confirming them in the released game.",
+      "status": "Officially featured"
+    },
+    {
+      "id": "grassrivers",
+      "name": "Grassrivers",
+      "kind": "Wetlands",
+      "summary": "A featured Leonida destination. Wildlife, routes and activity markers will be catalogued after in-game verification.",
+      "status": "Officially featured"
+    },
+    {
+      "id": "port-gellhorn",
+      "name": "Port Gellhorn",
+      "kind": "Coastal destination",
+      "summary": "A destination named in Rockstar’s official character-and-places showcase. Detailed map pins remain to be verified.",
+      "status": "Officially featured"
+    },
+    {
+      "id": "ambrosia",
+      "name": "Ambrosia",
+      "kind": "Destination",
+      "summary": "A featured location in Leonida. Add confirmed businesses, activities and collectibles after launch.",
+      "status": "Officially featured"
+    },
+    {
+      "id": "mount-kalaga",
+      "name": "Mount Kalaga",
+      "kind": "Highlands",
+      "summary": "A featured destination. Terrain routes, viewpoints and hidden locations are awaiting exploration.",
+      "status": "Officially featured"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "grotti-cheetah-95",
+      "name": "’95 Grotti Cheetah",
+      "type": "Car",
+      "class": "Sports / supercar label",
+      "status": "Pre-release listing · not game-tested",
+      "specs": "Class and appearance are provisional. Top speed, acceleration, handling, upgrades, price and spawn location have not been tested in-game.",
+      "imageUrl": "",
+      "sourceUrl": "https://thegta6map.com/vehicles"
+    },
+    {
+      "id": "vapid-stanier-55",
+      "name": "’55 Vapid Stanier",
+      "type": "Car",
+      "class": "Classic sedan label",
+      "status": "Pre-release listing · not game-tested",
+      "specs": "Class and appearance are provisional. Top speed, acceleration, handling, upgrades, price and spawn location have not been tested in-game.",
+      "imageUrl": "",
+      "sourceUrl": "https://thegta6map.com/vehicles"
+    },
+    {
+      "id": "vapid-ganado",
+      "name": "Vapid Ganado",
+      "type": "Car",
+      "class": "Vehicle class to verify",
+      "status": "Pre-release listing · not game-tested",
+      "specs": "Class and appearance are provisional. Top speed, acceleration, handling, upgrades, price and spawn location have not been tested in-game.",
+      "imageUrl": "",
+      "sourceUrl": "https://thegta6map.com/vehicles"
+    },
+    {
+      "id": "dinka-enduro",
+      "name": "Dinka Enduro",
+      "type": "Motorcycle",
+      "class": "Off-road motorcycle label",
+      "status": "Pre-release listing · not game-tested",
+      "specs": "Class and appearance are provisional. Top speed, acceleration, handling, upgrades, price and spawn location have not been tested in-game.",
+      "imageUrl": "",
+      "sourceUrl": "https://thegta6map.com/vehicles"
+    },
+    {
+      "id": "shitzu-squalo",
+      "name": "Shitzu Squalo",
+      "type": "Boat",
+      "class": "Speedboat label",
+      "status": "Pre-release listing · not game-tested",
+      "specs": "Class and appearance are provisional. Top speed, acceleration, handling, upgrades, price and spawn location have not been tested in-game.",
+      "imageUrl": "",
+      "sourceUrl": "https://thegta6map.com/vehicles"
+    },
+    {
+      "id": "crest-kayak",
+      "name": "Crest Kayak",
+      "type": "Boat",
+      "class": "Kayak",
+      "status": "Pre-release listing · not game-tested",
+      "specs": "Class and appearance are provisional. Top speed, acceleration, handling, upgrades, price and spawn location have not been tested in-game.",
+      "imageUrl": "",
+      "sourceUrl": "https://thegta6map.com/vehicles"
+    },
+    {
+      "id": "principe-alvino-v1",
+      "name": "Principe Alvino V1",
+      "type": "Motorcycle",
+      "class": "Motorcycle label",
+      "status": "Pre-release listing · not game-tested",
+      "specs": "Class and appearance are provisional. Top speed, acceleration, handling, upgrades, price and spawn location have not been tested in-game.",
+      "imageUrl": "",
+      "sourceUrl": "https://thegta6map.com/vehicles"
+    },
+    {
+      "id": "vapid-dominator-buggy",
+      "name": "’67 Vapid Dominator Buggy",
+      "type": "Off-road",
+      "class": "Off-road buggy label",
+      "status": "Pre-release listing · not game-tested",
+      "specs": "Class and appearance are provisional. Top speed, acceleration, handling, upgrades, price and spawn location have not been tested in-game.",
+      "imageUrl": "",
+      "sourceUrl": "https://thegta6map.com/vehicles"
+    }
+  ],
+  "guides": [
+    {
+      "id": "first-hours",
+      "title": "First hours in Leonida: a spoiler-light checklist",
+      "category": "Getting started",
+      "summary": "A practical checklist for settings, exploration, saving and learning the map. Update the steps only after testing the final game.",
+      "status": "Pre-launch framework",
+      "body": "Start with the control layout and accessibility options. Explore at your own pace, note important locations, and avoid assuming that GTA V systems work identically in GTA VI."
+    },
+    {
+      "id": "driving-basics",
+      "title": "Driving, vehicle classes and road awareness",
+      "category": "Vehicles",
+      "summary": "A field guide template for vehicle classes, handling notes, repair options and driving techniques.",
+      "status": "Awaiting in-game testing",
+      "body": "Record the vehicle, class, conditions, upgrades and test method whenever comparing handling or speed. Do not publish exact performance numbers without repeatable tests."
+    },
+    {
+      "id": "money-progression",
+      "title": "Money and progression tracker",
+      "category": "Progression",
+      "summary": "Track confirmed activities, rewards, costs and progression requirements as players discover them.",
+      "status": "Awaiting in-game testing",
+      "body": "For each earning method, record mission/activity name, time required, payout, repeatability and any prerequisites. Flag exploits separately and re-test after patches."
+    },
+    {
+      "id": "wanted-level",
+      "title": "Police pursuit survival guide",
+      "category": "Combat & survival",
+      "summary": "A guide framework for pursuit tactics, line-of-sight rules and wanted-level behaviour.",
+      "status": "Awaiting in-game testing",
+      "body": "Add only mechanics observed in-game. Separate story mission rules from free-roam rules and note platform-specific controls."
+    },
+    {
+      "id": "exploration",
+      "title": "Leonida exploration and collectibles checklist",
+      "category": "Exploration",
+      "summary": "A spoiler-aware checklist for locations, side activities, collectibles and points of interest.",
+      "status": "Awaiting in-game testing",
+      "body": "Each location should carry a screenshot or clear landmark, map pin, region, source and confirmation status before being marked verified."
+    },
+    {
+      "id": "100-percent",
+      "title": "100% completion tracker",
+      "category": "Completion",
+      "summary": "Build a checklist for story missions, side content, activities and collectibles once the final requirements are known.",
+      "status": "Awaiting in-game testing",
+      "body": "Do not invent completion requirements. Add each item only after checking the in-game statistics or a reproducible save-file test."
+    }
+  ],
+  "missions": [
+    {
+      "id": "mission-index",
+      "title": "Story mission index",
+      "category": "Main story",
+      "summary": "Mission names, objectives, unlocks and walkthroughs will be added after release and in-game confirmation.",
+      "status": "Waiting for verified gameplay"
+    },
+    {
+      "id": "side-activities",
+      "title": "Side activities & stranger encounters",
+      "category": "Side content",
+      "summary": "A spoiler-aware index for optional activities and encounters, with region and unlock requirements.",
+      "status": "Waiting for verified gameplay"
+    },
+    {
+      "id": "mission-rewards",
+      "title": "Mission rewards & choices",
+      "category": "Rewards",
+      "summary": "Track confirmed payouts, unlocks, branching outcomes and replay options. No unverified reward values are shown.",
+      "status": "Waiting for verified gameplay"
+    }
+  ],
+  "easterEggs": [
+    {
+      "id": "wildlife",
+      "title": "Wildlife and unusual encounters",
+      "summary": "Track unusual animal behaviour, rare spawns and environmental encounters with video or screenshot evidence.",
+      "status": "Unverified tracker"
+    },
+    {
+      "id": "radio",
+      "title": "Radio, music and broadcasts",
+      "summary": "Catalogue stations, songs, DJ dialogue, news bulletins and hidden audio references.",
+      "status": "Unverified tracker"
+    },
+    {
+      "id": "landmarks",
+      "title": "Hidden landmarks and references",
+      "summary": "Record distinctive signs, buildings, callbacks and environmental storytelling with precise locations.",
+      "status": "Unverified tracker"
+    },
+    {
+      "id": "internet",
+      "title": "Social media & viral moments",
+      "summary": "Track in-world posts, clips, online personalities and references discovered during play.",
+      "status": "Unverified tracker"
+    }
+  ],
+  "news": [
+    {
+      "id": "preload-now",
+      "title": "Pre-Load Grand Theft Auto VI Now",
+      "source": "Rockstar Games",
+      "date": "2026-11-10",
+      "summary": "Rockstar’s official GTA VI page lists the pre-load announcement among its featured Newswire posts.",
+      "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+      "official": true
+    },
+    {
+      "id": "launch-gallery",
+      "title": "Explore the Grand Theft Auto VI Launch Gallery",
+      "source": "Rockstar Games",
+      "date": "2026-11-05",
+      "summary": "Rockstar highlights a launch gallery of screenshots from Leonida on the official GTA VI page.",
+      "url": "https://www.rockstargames.com/newswire/article/39ak81277255o9/explore-the-grand-theft-auto-vi-launch-gallery",
+      "official": true
+    },
+    {
+      "id": "preload-begins",
+      "title": "Grand Theft Auto VI Pre-Load Begins on November 10",
+      "source": "Rockstar Games",
+      "date": "2026-11-03",
+      "summary": "An official announcement about the planned pre-load date for GTA VI.",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+      "official": true
+    }
+  ]
+}
