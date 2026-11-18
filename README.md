@@ -1,12 +1,12 @@
 # GTA 6 Central
 
-A static, responsive fan-made GTA VI companion website designed for free GitHub Pages hosting.
+A static, responsive fan-made GTA VI companion website published from this repository and designed for free GitHub Pages hosting.
 
 ## Features
 
 - Searchable cheat-code tracker with category filters and evidence/status labels.
 - Leonida destination explorer for six places featured on Rockstar's official site.
-- Character database using concise summaries linked to Rockstar’s official character page.
+- Character database with concise summaries linked to Rockstar’s official character page.
 - Vehicle index with editable image URLs and fields for tested specifications.
 - Tips, tricks, mission framework and Easter egg/discovery tracker.
 - Scheduled GTA VI news discovery feed through GitHub Actions.
@@ -27,12 +27,14 @@ Then open `http://localhost:8000`.
 
 ## Publish free with GitHub Pages
 
-1. Create a public GitHub repository named `gta-6-central` (or another name you prefer).
-2. Upload the contents of this folder to the repository root. Keep `.github`, `assets`, `data`, and `scripts`.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch `main` and folder `/ (root)`, then save.
-6. Wait for the Pages deployment to finish. Your public address will be shown in the Pages settings.
+This project is already in the `aaquibumar/gta-6-central` repository.
+
+1. Open the repository's **Settings → Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select branch `main` and folder `/(root)`, then save.
+4. Wait for the Pages deployment to finish. GitHub will show the public site URL in the Pages settings.
+
+Expected project-site address: `https://aaquibumar.github.io/gta-6-central/`.
 
 The site is static and requires no paid hosting, API key, database or build step.
 
@@ -40,7 +42,7 @@ The site is static and requires no paid hosting, API key, database or build step
 
 `.github/workflows/update-news.yml` runs every six hours and can also be started manually from the repository's **Actions** tab. `scripts/update-news.py` reads Google News RSS, keeps articles from an explicit publisher allow-list, and updates `data/news.json`.
 
-The feed is a discovery digest, not an endorsement or fact-check. News items retain their publisher attribution and link; check source content before treating a claim as confirmed. If GitHub blocks workflow pushes, check **Settings → Actions → General → Workflow permissions** and allow read/write repository permissions.
+The feed is a discovery digest, not an endorsement or fact-check. News items retain publisher attribution and article links; check source content before treating a claim as confirmed. The workflow requests `contents: write` so it can commit feed updates. In **Settings → Actions → General → Workflow permissions**, enable read and write permissions for the repository's workflow token if commits are rejected.
 
 ## Content admin
 
@@ -49,7 +51,7 @@ Open `admin.html` on the deployed site. You can add records, import/export JSON 
 **Important:** GitHub Pages cannot securely process admin logins or server-side writes. The admin panel is intentionally a local content editor, not a secure multi-user CMS. To publish edits to all visitors:
 
 1. Export `content.json` from the admin page.
-2. Replace `data/content.json` in the GitHub repository.
+2. Replace `data/content.json` in this repository.
 3. Commit the replacement. GitHub Pages will redeploy.
 
 Do not put passwords, API secrets or private data in the admin page or repository. For secure accounts and direct online publishing, connect a proper CMS/backend later.
